@@ -1,6 +1,6 @@
 ## Figma-React-Tailwind-Starter
 
-Choosing a technology stack is a very subjective matter, if you happen to like using `Vite`, `React`,`Tailwind`, `TS` and `shadcn ui` and more to build Figma plugins, then give it a try.
+Choosing a technology stack is a very subjective matter, if you happen to like using `Vite`, `React`,`Tailwind`, `TS` and `shadcn ui` and more to build `Figma plugins`, then give it a try.
 
 ## Run
 
@@ -36,11 +36,8 @@ src/ui
 ├── assets      # Assets for images, favicon etc
 ├── components  # React components
 ├── hooks       # React hooks
-├── i18n        # i18n files
 ├── lib         # Utils、tools、services
 ├── main.tsx    # File entry
-├── pages       # One .tsx per page
-├── router.tsx  # Routers
 ├── styles      # Less files
 ├── types       # Typescript types
 └── vite-env.d.ts
@@ -51,6 +48,8 @@ src/ui
 - [Next Starter](https://github.com/Quilljou/next-ts-tailwind-starter)
 
 - [React Starter](https://github.com/Quilljou/vite-react-ts-tailwind-starter)
+
+- [Figma Starter](https://github.com/Quilljou/figma-react-tailwind-starter)
 
 <!-- [Electron Starter](https://)
 
