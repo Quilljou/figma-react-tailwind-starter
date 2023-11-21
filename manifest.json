@@ -1,0 +1,9 @@
+{
+  "name": "Figma React Tailwind Starter",
+  "id": "com.figma.react.tailwind.starter",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "permissions": [],
+  "main": "dist/code.js",
+  "ui": "dist/index.html"
+}
