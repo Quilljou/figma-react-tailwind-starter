@@ -9,7 +9,7 @@
     "lint": "eslint --quiet src --ext .ts,.tsx && stylelint src/**/*.less",
     "lint:fix": "eslint --quiet --fix src --ext .ts,.tsx && stylelint --fix src/**/*.less",
     "build": "yarn build:ui && yarn build:main",
-    "build:main": "esbuild src/plugin/code.ts --bundle --outfile=dist/code.js",
+    "build:main": "esbuild src/plugin/code.ts --bundle --target=es2015 --outfile=dist/code.js",
     "build:ui": "yarn vite build --emptyOutDir=false",
     "build:watch": "concurrently -n widget,iframe \"yarn build:main --watch\" \"yarn build:ui --watch\"",
     "dev": "concurrently -n tsc,build,vite 'yarn:typecheck:watch' 'yarn:build:watch' 'vite'"
