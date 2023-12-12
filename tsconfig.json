@@ -3,7 +3,10 @@
     "module": "esnext",
     "useDefineForClassFields": true,
     "target": "ES2015",
-    "lib": ["esnext", "dom"],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "allowJs": true,
     "moduleResolution": "node",
     "strict": true,
@@ -22,11 +25,33 @@
     "experimentalDecorators": true,
     "baseUrl": ".",
     "rootDir": ".",
-    "jsx": "react-jsx",
-    "types": ["@figma/plugin-typings", "vite/client"],
+    "jsx": "preserve",
+    "types": [
+      "@figma/plugin-typings",
+      "vite/client"
+    ],
     "paths": {
-      "src/*": ["./src/*"]
-    }
+      "src/*": [
+        "./src/*"
+      ]
+    },
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "isolatedModules": true
   },
-  "include": ["./src", "vite-env.d.ts"]
+  "include": [
+    "./src",
+    "vite-env.d.ts",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

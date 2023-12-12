@@ -1,0 +1,14 @@
+{
+  "name": "figma-react-tailwind-starter",
+  "id": "figma-react-tailwind-starter",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "enableProposedApi": false,
+  "editorType": ["figma", "dev"],
+  "permissions": ["currentuser"],
+  "capabilities": ["inspect"],
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "reasoning": "Internet access for local development."
+  }
+}
